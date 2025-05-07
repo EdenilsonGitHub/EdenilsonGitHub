@@ -38,7 +38,7 @@
 ### 🛢️ Databases
 <a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" /></a>
 <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" /></a>
-<img src="./img/oracle-svgrepo-com.svg" alt="Oracle" width="40" height="40"/>
+<a href="https://www.oracle.com/" target="_blank"><img src="./img/oracle-svgrepo-com.svg" alt="Oracle" width="40" height="40"/></a>
 
 ---
 
