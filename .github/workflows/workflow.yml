@@ -22,8 +22,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git add profile-3d-contrib || echo "Nada para adicionar"
           git commit -m "Adiciona gráfico 3D de contribuições gerado automaticamente" || echo "Nada para commitar"
