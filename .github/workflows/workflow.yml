@@ -15,7 +15,7 @@ jobs:
       - name: Generate 3D Profile
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           USERNAME: EdenilsonGitHub
 
       - name: Commit and push generated files
