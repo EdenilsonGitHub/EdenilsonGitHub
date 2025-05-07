@@ -62,9 +62,9 @@
 
 ### 🌐 Social
 <a href="https://discord.com/users/SEU_ID_DO_DISCORD"><img src="https://skillicons.dev/icons?i=discord" /></a>
-<a href="https://www.linkedin.com/in/seuusuario/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-<a href="https://www.instagram.com/seuusuario"><img src="https://skillicons.dev/icons?i=instagram" /></a>
-<a href="https://twitter.com/seuusuario"><img src="https://skillicons.dev/icons?i=twitter" /></a>
+<a href="https://www.linkedin.com/in/edenilson-a-3a7443b6/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+<a href="https://www.instagram.com/ede4lmeida/"><img src="https://skillicons.dev/icons?i=instagram" /></a>
+<a href="https://x.com/ede4lmeid4"><img src="https://skillicons.dev/icons?i=twitter" /></a>
 
 </div>
 
