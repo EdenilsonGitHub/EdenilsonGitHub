@@ -11,7 +11,17 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v2
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+
+      - name: Generate 3D Profile
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: EdenilsonGitHub
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib || echo "Nada para adicionar"
+          git commit -m "Adiciona gráfico 3D de contribuições gerado automaticamente" || echo "Nada para commitar"
+          git push origin main
